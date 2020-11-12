@@ -1,0 +1,103 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DemoTesting,Chrome 86.0.4240.193,,,2020-11-12 15:43:09,2020-11-12 15:44:22,1m - 12.360s,PASSED
+,,,,,,,
+Test Cases/DKT-1,Chrome 86.0.4240.193,"Summary: TC1-Test Login Success
+Description: Following these steps to test:
+1. Open browser, e.g Chrome
+2. Navigate to URL [http://localhost:6969/demotesting|http://localhost:6969/demotesting]
+3. Type username: thinhtpt@gmail.com
+4. Type password: 123456
+5. Click login button
+6. Verify welcome title: Hi, Tran Thinh",jira-integration,2020-11-12 15:43:10,2020-11-12 15:43:26,16.046s,PASSED
+"openBrowser("""")",Chrome 86.0.4240.193,,,2020-11-12 15:43:10,2020-11-12 15:43:17,6.413s,PASSED
+"navigateToUrl(""http://localhost:6969/demotesting/"")",Chrome 86.0.4240.193,,,2020-11-12 15:43:17,2020-11-12 15:43:21,4.085s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Page/input_Username_txtUsername""), ""thinhtpt@gmail.com"")",Chrome 86.0.4240.193,,,2020-11-12 15:43:21,2020-11-12 15:43:22,1.076s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login Page/input_Password_txtPassword""), ""aeHFOx8jV/A="")",Chrome 86.0.4240.193,,,2020-11-12 15:43:22,2020-11-12 15:43:23,0.690s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page/strong_Sign in""))",Chrome 86.0.4240.193,,,2020-11-12 15:43:23,2020-11-12 15:43:24,1.589s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Home Page/h3_Ahihi, Tran Thinh""), ""Ahihi, Tran Thinh!"")",Chrome 86.0.4240.193,,,2020-11-12 15:43:24,2020-11-12 15:43:25,0.399s,PASSED
+closeBrowser(),Chrome 86.0.4240.193,,,2020-11-12 15:43:25,2020-11-12 15:43:26,1.203s,PASSED
+,,,,,,,
+Test Cases/DKT-2,Chrome 86.0.4240.193,"Summary: TC2-Test Login Fail
+Description: Following these steps to test:
+
+# Open browser, e.g Chrome
+# Navigate to URL [http://localhost:6969/demotesting|http://localhost:6969/demotesting]
+# Type username as in attached  excel file
+# Type password as in attached  excel file
+# Click login button
+# Verify error message with error in attached excel file",jira-integration,2020-11-12 15:43:26,2020-11-12 15:43:40,13.558s,PASSED
+"openBrowser("""")",Chrome 86.0.4240.193,,,2020-11-12 15:43:26,2020-11-12 15:43:30,3.480s,PASSED
+"navigateToUrl(""http://localhost:6969/demotesting/"")",Chrome 86.0.4240.193,,,2020-11-12 15:43:30,2020-11-12 15:43:36,6.475s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Page/input_Username_txtUsername""), username)",Chrome 86.0.4240.193,,,2020-11-12 15:43:36,2020-11-12 15:43:37,0.851s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Page/input_Password_txtPassword""), password)",Chrome 86.0.4240.193,,,2020-11-12 15:43:37,2020-11-12 15:43:38,0.659s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page/button_Sign in""))",Chrome 86.0.4240.193,,,2020-11-12 15:43:38,2020-11-12 15:43:39,0.889s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Login Page/strong_User is not found""), msg)",Chrome 86.0.4240.193,,,2020-11-12 15:43:39,2020-11-12 15:43:39,0.362s,PASSED
+closeBrowser(),Chrome 86.0.4240.193,,,2020-11-12 15:43:39,2020-11-12 15:43:40,0.621s,PASSED
+,,,,,,,
+Test Cases/DKT-2,Chrome 86.0.4240.193,"Summary: TC2-Test Login Fail
+Description: Following these steps to test:
+
+# Open browser, e.g Chrome
+# Navigate to URL [http://localhost:6969/demotesting|http://localhost:6969/demotesting]
+# Type username as in attached  excel file
+# Type password as in attached  excel file
+# Click login button
+# Verify error message with error in attached excel file",jira-integration,2020-11-12 15:43:40,2020-11-12 15:43:51,11.319s,PASSED
+"openBrowser("""")",Chrome 86.0.4240.193,,,2020-11-12 15:43:40,2020-11-12 15:43:43,3.374s,PASSED
+"navigateToUrl(""http://localhost:6969/demotesting/"")",Chrome 86.0.4240.193,,,2020-11-12 15:43:43,2020-11-12 15:43:48,4.768s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Page/input_Username_txtUsername""), username)",Chrome 86.0.4240.193,,,2020-11-12 15:43:48,2020-11-12 15:43:48,0.621s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Page/input_Password_txtPassword""), password)",Chrome 86.0.4240.193,,,2020-11-12 15:43:48,2020-11-12 15:43:49,0.900s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page/button_Sign in""))",Chrome 86.0.4240.193,,,2020-11-12 15:43:49,2020-11-12 15:43:50,0.570s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Login Page/strong_User is not found""), msg)",Chrome 86.0.4240.193,,,2020-11-12 15:43:50,2020-11-12 15:43:50,0.429s,PASSED
+closeBrowser(),Chrome 86.0.4240.193,,,2020-11-12 15:43:50,2020-11-12 15:43:51,0.643s,PASSED
+,,,,,,,
+Test Cases/DKT-2,Chrome 86.0.4240.193,"Summary: TC2-Test Login Fail
+Description: Following these steps to test:
+
+# Open browser, e.g Chrome
+# Navigate to URL [http://localhost:6969/demotesting|http://localhost:6969/demotesting]
+# Type username as in attached  excel file
+# Type password as in attached  excel file
+# Click login button
+# Verify error message with error in attached excel file",jira-integration,2020-11-12 15:43:51,2020-11-12 15:44:06,14.647s,PASSED
+"openBrowser("""")",Chrome 86.0.4240.193,,,2020-11-12 15:43:51,2020-11-12 15:43:54,3.484s,PASSED
+"navigateToUrl(""http://localhost:6969/demotesting/"")",Chrome 86.0.4240.193,,,2020-11-12 15:43:54,2020-11-12 15:44:01,6.057s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Page/input_Username_txtUsername""), username)",Chrome 86.0.4240.193,,,2020-11-12 15:44:01,2020-11-12 15:44:01,0.917s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Page/input_Password_txtPassword""), password)",Chrome 86.0.4240.193,,,2020-11-12 15:44:01,2020-11-12 15:44:02,0.666s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page/button_Sign in""))",Chrome 86.0.4240.193,,,2020-11-12 15:44:02,2020-11-12 15:44:05,2.498s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Login Page/strong_User is not found""), msg)",Chrome 86.0.4240.193,,,2020-11-12 15:44:05,2020-11-12 15:44:05,0.351s,PASSED
+closeBrowser(),Chrome 86.0.4240.193,,,2020-11-12 15:44:05,2020-11-12 15:44:06,0.649s,PASSED
+,,,,,,,
+Test Cases/DKT-2,Chrome 86.0.4240.193,"Summary: TC2-Test Login Fail
+Description: Following these steps to test:
+
+# Open browser, e.g Chrome
+# Navigate to URL [http://localhost:6969/demotesting|http://localhost:6969/demotesting]
+# Type username as in attached  excel file
+# Type password as in attached  excel file
+# Click login button
+# Verify error message with error in attached excel file",jira-integration,2020-11-12 15:44:06,2020-11-12 15:44:14,8.195s,PASSED
+"openBrowser("""")",Chrome 86.0.4240.193,,,2020-11-12 15:44:06,2020-11-12 15:44:09,3.311s,PASSED
+"navigateToUrl(""http://localhost:6969/demotesting/"")",Chrome 86.0.4240.193,,,2020-11-12 15:44:09,2020-11-12 15:44:10,0.934s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Page/input_Username_txtUsername""), username)",Chrome 86.0.4240.193,,,2020-11-12 15:44:10,2020-11-12 15:44:11,0.801s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Page/input_Password_txtPassword""), password)",Chrome 86.0.4240.193,,,2020-11-12 15:44:11,2020-11-12 15:44:11,0.626s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page/button_Sign in""))",Chrome 86.0.4240.193,,,2020-11-12 15:44:11,2020-11-12 15:44:12,0.602s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Login Page/strong_User is not found""), msg)",Chrome 86.0.4240.193,,,2020-11-12 15:44:12,2020-11-12 15:44:12,0.344s,PASSED
+closeBrowser(),Chrome 86.0.4240.193,,,2020-11-12 15:44:12,2020-11-12 15:44:14,1.558s,PASSED
+,,,,,,,
+Test Cases/DKT-2,Chrome 86.0.4240.193,"Summary: TC2-Test Login Fail
+Description: Following these steps to test:
+
+# Open browser, e.g Chrome
+# Navigate to URL [http://localhost:6969/demotesting|http://localhost:6969/demotesting]
+# Type username as in attached  excel file
+# Type password as in attached  excel file
+# Click login button
+# Verify error message with error in attached excel file",jira-integration,2020-11-12 15:44:14,2020-11-12 15:44:22,7.882s,PASSED
+"openBrowser("""")",Chrome 86.0.4240.193,,,2020-11-12 15:44:14,2020-11-12 15:44:17,3.163s,PASSED
+"navigateToUrl(""http://localhost:6969/demotesting/"")",Chrome 86.0.4240.193,,,2020-11-12 15:44:17,2020-11-12 15:44:18,0.951s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Page/input_Username_txtUsername""), username)",Chrome 86.0.4240.193,,,2020-11-12 15:44:18,2020-11-12 15:44:19,0.841s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Page/input_Password_txtPassword""), password)",Chrome 86.0.4240.193,,,2020-11-12 15:44:19,2020-11-12 15:44:20,0.649s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page/button_Sign in""))",Chrome 86.0.4240.193,,,2020-11-12 15:44:20,2020-11-12 15:44:20,0.900s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Login Page/strong_User is not found""), msg)",Chrome 86.0.4240.193,,,2020-11-12 15:44:20,2020-11-12 15:44:21,0.501s,PASSED
+closeBrowser(),Chrome 86.0.4240.193,,,2020-11-12 15:44:21,2020-11-12 15:44:22,0.866s,PASSED

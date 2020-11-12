@@ -1,0 +1,6 @@
+{"testCaseName":"Test Cases/DKT-1","testCaseId":"Test Cases/DKT-1"}
+{"testCaseName":"Test Cases/DKT-2 - Iteration 1","testCaseId":"Test Cases/DKT-2","bindedValues":{"msg":"\u0027Email and password cannot be empty\u0027","username":"\u0027\u0027"}}
+{"testCaseName":"Test Cases/DKT-2 - Iteration 2","testCaseId":"Test Cases/DKT-2","bindedValues":{"msg":"\u0027Email and password cannot be empty\u0027","password":"\u0027123456\u0027","username":"\u0027\u0027"}}
+{"testCaseName":"Test Cases/DKT-2 - Iteration 3","testCaseId":"Test Cases/DKT-2","bindedValues":{"msg":"\u0027Email and password cannot be empty\u0027","username":"\u0027thinh@gmail.com\u0027"}}
+{"testCaseName":"Test Cases/DKT-2 - Iteration 4","testCaseId":"Test Cases/DKT-2","bindedValues":{"msg":"\u0027User is not found\u0027","password":"\u0027123456\u0027","username":"\u0027thinh@gmail.com\u0027"}}
+{"testCaseName":"Test Cases/DKT-2 - Iteration 5","testCaseId":"Test Cases/DKT-2","bindedValues":{"msg":"\u0027User is not found\u0027","password":"\u00271234678\u0027","username":"\u0027thinhtpt@gmail.com\u0027"}}
