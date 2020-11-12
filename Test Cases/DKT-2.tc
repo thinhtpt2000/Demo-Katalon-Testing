@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: TC2-Test Login Fail
+Description: Following these steps to test:
+
+# Open browser, e.g Chrome
+# Navigate to URL [http://localhost:6969/demotesting|http://localhost:6969/demotesting]
+# Type username as in attached  excel file
+# Type password as in attached  excel file
+# Click login button
+# Verify error message with error in attached excel file</description>
+   <name>DKT-2</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10020&quot;:[{&quot;id&quot;:6,&quot;name&quot;:&quot;DKT Sprint 1&quot;,&quot;state&quot;:&quot;active&quot;,&quot;boardId&quot;:4,&quot;goal&quot;:&quot;&quot;,&quot;startDate&quot;:&quot;2020-11-11T02:00:31.807Z&quot;,&quot;endDate&quot;:&quot;2020-11-25T02:00:00.000Z&quot;}],&quot;customfield_10000&quot;:&quot;{}&quot;,&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0001j:&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://fptkatalon.atlassian.net/&quot;,&quot;self&quot;:&quot;https://fptkatalon.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://fptkatalon.atlassian.net/rest/api/2/project/10003&quot;,&quot;key&quot;:&quot;DKT&quot;,&quot;id&quot;:10003,&quot;name&quot;:&quot;Demo Katalon Testing&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;TC2-Test Login Fail&quot;,&quot;description&quot;:&quot;Following these steps to test:\n\n# Open browser, e.g Chrome\n# Navigate to URL [http://localhost:6969/demotesting|http://localhost:6969/demotesting]\n# Type username as in attached  excel file\n# Type password as in attached  excel file\n# Click login button\n# Verify error message with error in attached excel file&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;thinhtptse140092@fpt.edu.vn&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Tran Phan Truong Thinh&quot;,&quot;self&quot;:&quot;https://fptkatalon.atlassian.net/rest/api/2/user?accountId\u003d5fa57d5058f262007288e6ad&quot;},&quot;assignee&quot;:{&quot;emailAddress&quot;:&quot;thinhtptse140092@fpt.edu.vn&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Tran Phan Truong Thinh&quot;,&quot;self&quot;:&quot;https://fptkatalon.atlassian.net/rest/api/2/user?accountId\u003d5fa57d5058f262007288e6ad&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://fptkatalon.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://fptkatalon.atlassian.net/rest/api/2/issue/DKT-2/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://fptkatalon.atlassian.net/rest/api/2/issue/10008&quot;,&quot;key&quot;:&quot;DKT-2&quot;,&quot;id&quot;:10008}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>fb472c32-2c37-42ad-a7ef-1791b3ea5dad</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d9fcdc2c-2091-4854-85cc-06e06abcb041</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>db73b68c-dc6c-4a15-9738-4cd71a87fcfc</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>03072133-fc09-4458-82bd-1a60900994dd</id>
+      <masked>false</masked>
+      <name>msg</name>
+   </variable>
+</TestCaseEntity>
